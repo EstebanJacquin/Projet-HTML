@@ -1,0 +1,30 @@
+html{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif, system-ui;
+}
+
+.margin {
+    padding : 0 10rem;
+}
+
+header{
+    background-color: #e40012;
+}
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    margin: 25px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: black 1px solid;
+}
