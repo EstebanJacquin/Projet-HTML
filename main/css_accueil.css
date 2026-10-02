@@ -16,10 +16,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 20px;
 }
 
-a{
+nav > a{
     margin: 25px;
     color: black;
     text-decoration: none;
@@ -31,7 +32,6 @@ a{
 
 #blanc{
     padding-top: 5rem;
-    height: 623.6px;
 }
 
 .box{
@@ -50,12 +50,7 @@ a{
     justify-content: space-between;
 }
 
-#blanc{
-    padding-top: 5rem;
-    height: 623.6px;
-}
-
-#annonce{
+.annonce{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,4 +120,25 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+footer{
+    background-color: red;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer > p, a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#footer > a:hover{
+    text-decoration: underline;
 }

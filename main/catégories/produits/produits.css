@@ -1,0 +1,147 @@
+html{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif, system-ui;
+}
+
+.margin {
+    padding : 0 10rem;
+}
+
+header{
+    background-color: #e40012;
+}
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav > a{
+    margin: 25px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: black 1px solid;
+}
+
+#blanc{
+    padding-top: 5rem;
+}
+
+.box{
+    display: flex;
+}
+
+.logo{
+    height: 175px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.annonce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.txt{
+    padding: 20px;
+}
+
+.img > img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.bouton{
+    position: absolute;
+    top: auto;
+    padding: 10px;
+    margin: 10px 0 0 10px;
+    background-color: white;
+    border-radius: 100px;
+    border: 1px black solid;
+    font-weight: bold;
+    font-size: small;
+    opacity: 90%;
+}
+
+.fa-arrow-right{
+    padding: 10px;
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+    display: flex;
+}
+
+.type{
+    color: #2a2a2a;
+    font-size: small;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.titre{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.description{
+    margin-bottom: 10px;
+}
+
+.prix{
+    font-weight: bolder;
+}
+
+.fleche{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    height: 70.4px;
+    width: 100%;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer > p, a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#footer > a:hover{
+    text-decoration: underline;
+}

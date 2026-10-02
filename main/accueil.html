@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="css_accueil.css">
@@ -17,20 +17,20 @@
             <img src="../assets/logo.webp" alt="Logo officiel de Nintendo®" width = 150px>
             <div class="nav">
                 <nav>
-                    <a href="">Accueil</a>
-                    <a href="">Catégories</a>
-                    <a href="">Produits</a>
-                    <a href="">Nous contacter</a>
-                    <a href=""><i class="fa-solid fa-magnifying-glass" id="loupe"></i></a>
+                    <a href="accueil.html">Accueil</a>
+                    <a href="catégories/catégories.html">Catégories</a>
+                    <a href="catégories/produits/produits.html">Produits</a>
+                    <a href="Contact.html">Nous contacter</a>
+                    <a href="" aria-label="Loupe"><i class="fa-solid fa-magnifying-glass" id="loupe"></i></a>
                 </nav>
             </div>
         </div>
     </div>
 </header>
-<div>
+<div role="main">
     <div id="blanc">
         <div class="margin">
-            <div id="annonce">
+            <div class="annonce">
                 <h2>Catégories</h2>
                 <div class="boxes">
                     <div class="box">
@@ -41,7 +41,7 @@
                         <div class="txt">
                             <p class="description">Les dernières consoles de Nintendo en vente.</p>
                             <div class="fleche">
-                                <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="catégories/consoles.html" aria-label="Flèche"><i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -53,38 +53,36 @@
                         <div class="txt">
                             <p class="description">Découvrez les nouveaux jeux Mario par Nintendo en vente.</p>
                             <div class="fleche">
-                                <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="catégories/jeux.html" aria-label="Flèche"><i class="fa-solid fa-arrow-right">Flèche</i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <div class="produits">
-                    <h2>Produits</h2>
-                    <div class="boxes">
-                        <div class="box">
-                            <div class="img">
-                                <p class="bouton">Consoles</p>
-                                <img src="../assets/consoles/Switch/switch1.jpg" alt="Nintendo Switch">
-                            </div>
-                            <div class="txt">
-                                <p class="description">Les dernières consoles de Nintendo en vente.</p>
-                                <div class="fleche">
-                                    <a href=""><i class="fa-solid fa-arrow-right"></i></a>
-                                </div>
+            <div class="annonce">
+                <h2>Produits</h2>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="img">
+                            <p class="bouton">Nintendo 64</p>
+                            <img src="../assets/consoles/Nintendo%2064/64_1.jpg" alt="Nintendo 64">
+                        </div>
+                        <div class="txt">
+                            <p class="description">L'ancienne Nintendo 64 en vente dès maintenant.</p>
+                            <div class="fleche">
+                                <a href="catégories/produits/consoles/nin_64.html" aria-label="Flèche"><i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
-                        <div class="box">
-                            <div class="img">
-                                <p class="bouton">Jeux</p>
-                                <img src="../assets/jeux/smo/odyssey1.jpg" alt="Couverture de la boîte de Super Mario Odyssey">
-                            </div>
-                            <div class="txt">
-                                <p class="description">Découvrez les nouveaux jeux Mario par Nintendo en vente.</p>
-                                <div class="fleche">
-                                    <a href=""><i class="fa-solid fa-arrow-right"></i></a>
-                                </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <p class="bouton">Pochette de rangement Switch</p>
+                            <img src="../assets/accessoires/pochette/pochette1.jpg" alt="Pochette de rangement Nintendo Switch Mario Kart 8 Deluxe">
+                        </div>
+                        <div class="txt">
+                            <p class="description">Les pochettes de rangement Nintendo Switch disponible.</p>
+                            <div class="fleche">
+                                <a href="catégories/produits/accessoires/pochette.html" aria-label="Flèche"><i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -93,5 +91,14 @@
         </div>
     </div>
 </div>
+<footer>
+    <div class="margin">
+        <div id="footer">
+            <p>© 2026 Esteban Jacquin</p>
+            <a href="#header">Haut de page</a>
+            <a href="">Nous contacter</a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
