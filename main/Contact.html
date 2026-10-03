@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="contact_css.css">
@@ -18,45 +18,45 @@
             <div class="nav">
                 <nav>
                     <a href="accueil.html">Accueil</a>
-                    <a href="">Catégories</a>
-                    <a href="">Produits</a>
+                    <a href="catégories/catégories.html">Catégories</a>
                     <a href="">Nous contacter</a>
-                    <a href=""><i class="fa-solid fa-magnifying-glass" id="loupe"></i></a>
                 </nav>
             </div>
         </div>
     </div>
 </header>
-<form method="post" action="https://api.web3forms.com/submit">
-    <table border="solid black 1px">
-        <tr>
-            <th><label for="firstname">Prénom</label></th>
-            <th><input type="text" name="firstname" id="firstname"></th>
-        </tr>
-        <tr>
-            <th><label for="name">Nom</label></th>
-            <th><input type="text" name="name" id="name" required></th>
-        </tr>
-        <tr>
-            <th><label for="email">Email</label></th>
-            <th><input type="email" name="email" id="email"></th>
-        </tr>
-        <tr>
-            <th><label for="phone">Téléphone</label></th>
-            <th><input type="tel" name="phone" id="phone"></th>
-        </tr>
-        <tr>
-            <th><label for="contact">J'accepte d'être recontacté</label></th>
-            <th><input type="checkbox" name="contact" id="contact"></th>
-        </tr>
-        <tr>
-            <th colspan="2"><input type="submit" name="submit" id="submit" class="bouton"></th>
-        </tr>
-        <tr>
-            <th colspan="2"><input type="hidden" name="access_key" value="6865b44b-fb1f-4cc6-bd46-b25de07af04a" class="api" style="display: none"></th>
-        </tr>
-    </table>
-</form>
+<div role="main">
+    <form method="post" action="https://api.web3forms.com/submit">
+        <table border="solid black 1px">
+            <tr>
+                <th><label for="firstname">Prénom</label></th>
+                <th><input type="text" name="firstname" id="firstname"></th>
+            </tr>
+            <tr>
+                <th><label for="name">Nom</label></th>
+                <th><input type="text" name="name" id="name" required></th>
+            </tr>
+            <tr>
+                <th><label for="email">Email</label></th>
+                <th><input type="email" name="email" id="email"></th>
+            </tr>
+            <tr>
+                <th><label for="phone">Téléphone</label></th>
+                <th><input type="tel" name="phone" id="phone"></th>
+            </tr>
+            <tr>
+                <th><label for="contact">J'accepte d'être recontacté</label></th>
+                <th><input type="checkbox" name="contact" id="contact"></th>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="submit" name="submit" id="submit" class="bouton"></th>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="hidden" name="access_key" value="6865b44b-fb1f-4cc6-bd46-b25de07af04a" class="api" style="display: none"></th>
+            </tr>
+        </table>
+    </form>
+</div>
 <footer>
     <div class="margin">
         <div id="footer">
