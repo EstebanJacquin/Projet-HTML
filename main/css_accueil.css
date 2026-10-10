@@ -3,6 +3,12 @@ html{
     font-family: Arial, Helvetica, sans-serif, system-ui;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .margin {
     padding : 0 10rem;
 }
@@ -16,8 +22,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     padding: 20px;
+}
+
+nav{
+    display: flex;
 }
 
 nav > a{
@@ -124,6 +133,7 @@ nav > a{
 
 footer{
     background-color: red;
+    margin-top: auto;
 }
 
 #footer{
@@ -141,4 +151,27 @@ footer{
 
 #footer > a:hover{
     text-decoration: underline;
+}
+
+@media (max-width : 394px) {
+    header > .margin{
+        padding: 0;
+    }
+
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .boxes{
+        flex-wrap: wrap;
+    }
+
+    .image{
+        flex-wrap: wrap;
+    }
+
+    .image > img{
+        width: 375px;
+    }
 }
