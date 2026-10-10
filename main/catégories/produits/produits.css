@@ -75,6 +75,12 @@ nav > a{
     padding: 20px;
 }
 
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .img > img{
     width: 100%;
     border-radius: 8px 8px 0 0;
@@ -147,4 +153,20 @@ footer{
 
 #footer > a:hover{
     text-decoration: underline;
+}
+
+#achat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#achat > p{
+    background-color: #e40012;
+    color: white;
+    padding: 50px;
+}
+
+#achat > img{
+    width: 300px;
 }
